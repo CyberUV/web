@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="main">
+    <div class="login">
+  <input type="text" class="inp" name="username" id="name-input" placeholder="User Name" required>
+  <input type="email" class="inp" name="email" id="email-input" placeholder="User Email" required>
+  <input type="password" class="inp" name="password" id="pass-input" placeholder="Password" required>
+  <!-- <input type="submit" id="submit"> -->
+    </div> 
+    <div id="chat-container">
+      <input type="text" class="inp" id="server-input" placeholder="S." title="Enter Any server Name where you want to talk to your friend">
+      
+
+        <div id="message-container"></div>
+     
+      
+     <div class="msage">
+      <textarea id="message-input" placeholder="..." rows="3"></textarea>
+      <button id="send-button">Send</button>
+     
+     </div>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+

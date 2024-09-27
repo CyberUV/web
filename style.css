@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#chat-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+}
+
+#message-container {
+  max-height: 300px;
+  overflow-y: auto;
+  /* border: 1px solid #ccc; */
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#message-container p {
+  margin: 0 0 10px 0;
+padding: 7px;
+}
+
+/* input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+} */
+
+button {
+  padding: 10px 20px;
+}
+
+/* style.css */
+
+.my-message {
+/* background-color: #f5f5f5; */
+color: #333333;
+text-align: right;
+
+/* Add other styles as desired */
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  height: 100vh;
+}
+.login{
+  display: flex;
+  /* flex-direction: column; */
+  padding: 10px ;
+}
+.login input{
+  margin: 10px 5px 5px 5px;
+
+  /* width: 80%; */
+  width: 20px;
+  height: 25px;
+  outline: none;
+  border: none;
+  
+}
+.inp{
+ background-color: #f5f5f5;
+ /* border-radius: 10px; */
+ /* padding: 5px 15px; */
+
+}
+#submit{
+  text-align: center;
+  /* height: 34px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  transition: 0.7s; */
+  background: linear-gradient(45deg, rgb(173, 173, 248), rgb(141, 240, 255));
+  box-shadow: 0 0 200px 10px rgb(141, 240, 255);
+}
+#submit:active{
+  background: linear-gradient(to right, rgb(141, 240, 255), rgb(141, 240, 255), rgb(173, 173, 248), rgb(173, 173, 248), rgb(173, 173, 248),  rgb(173, 173, 248));
+ 
+
+}
+#chat-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* max-height: 10vh; */
+  width: 80%;
+}
+#server-input{
+  width: 50%;
+  font-size: 20px;
+  display: flex;
+  align-items: flex-start;
+  color: white;
+}
+.msage{
+  display: flex;
+  justify-content: flex-end;
+}
+#server-input{
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+#message-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+
+.all-message{
+  
+  padding: 5px 10px;
+  font-size: 20px;
+  margin: 10px 0;
+  
+}
+.my-message{
+  border-radius: 15px;
+  padding-right: 20px;
+}
+.meesa {
+  color: white;
+}
+
+#message-input{
+  border: none;
+  width: 70%;
+  font-size: 20px;
+  height: 50px;
+  /* border-bottom: 4px solid rgba(0, 0, 255, 0.395);  */
+  border-radius: 20px;
+  padding-left: 20px;
+}
+#message-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  /* border: 1px solid #ccc; */
+  resize: vertical; /* Allows the textarea to be resized vertically */
+}
+
+#send-button{
+  margin-left: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  color: white;
+  font-weight: 800;
+  
+}
